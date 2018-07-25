@@ -2,54 +2,51 @@
 	<link rel="stylesheet" href="./viewer.css">
 </head>
 <body>
-	<div class="timer"><div id="timer">
-			00:00
-	</div></div>
+	<div class="timer">
+		<div id="timer">00:00</div>
+	</div>
 	<div class="players">
 		<div class="player" id="player1">
 			<div id="info">
-				<div id="name">Lorem</div>
-				<div id="record">5-0-1</div>
+				<div id="name">Name</div>
+				<div id="record">0-0-0</div>
 			</div>
 			<div id="lifetotal">20</div>
-			<div id="mwins">
-				<div class="mwinIndicatorF" id="mwinIndicator1"></div>
-				<div class="mwinIndicator" id="mwinIndicator2"></div>
-			</div>
-			<div id="record"></div>
-		</div>
-		<div class="player" id="player2">
-			<div id="info">
-				<div id="name">Ipsum</div>
-				<div id="record">6-0-0</div>
-			</div>
-			<div id="lifetotal">55</div>
 			<div id="mwins">
 				<div class="mwinIndicator" id="mwinIndicator1"></div>
 				<div class="mwinIndicator" id="mwinIndicator2"></div>
 			</div>
-			<div id="record"></div>
+		</div>
+		<div class="player" id="player2">
+			<div id="info">
+				<div id="name">Name</div>
+				<div id="record">0-0-0</div>
+			</div>
+			<div id="lifetotal">20</div>
+			<div id="mwins">
+				<div class="mwinIndicator" id="mwinIndicator1"></div>
+				<div class="mwinIndicator" id="mwinIndicator2"></div>
+			</div>
 		</div>
 	</div>
-	<div class="status"><div id="status">
-			Store Championships - Round 7
-	</div></div>
+	<div class="status">
+		<div id="status">Round Status Header</div>
+	</div>
 </body>
 
 <!--
 -HIERARCHY-
 
 div.timer
-	>div#timer
+	>div#timer{00:00}
 ^+div.players
 	>div.player#player$*2
 		>div#info
-			>div#name
-			+div#record
-		^+div#lifetotal
+			>div#name{Name}
+			+div#record{0-0-0}
+		^+div#lifetotal{20}
 		+div#mwins
 			>div.mwinIndicator#mwinIndicator$*2
-		^+div#record
-^^+div.status
-	>div#status
+^^^+div.status
+	>div#status{Round Status Header}
 -->
