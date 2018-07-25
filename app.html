@@ -1,0 +1,34 @@
+<head>
+	<link rel="stylesheet" href="./app.css">
+</head>
+<body>
+	<div class="app">
+		<div class="life" id="life1">
+			<div class="player">
+				<div class="lp">20</div>
+				<img src="life.png" alt="" class="heart">
+			</div>
+		</div>
+		<div class="bar"></div>
+		<div class="life" id="life2">
+			<div class="player">
+				<div class="lp">20</div>
+				<img src="life.png" alt="" class="heart">
+			</div>
+		</div>
+	</div>
+</body>
+
+<!--
+-HIERARCHY-
+div.app
+	>div.life#life1
+		>div.player
+			>div.lp{20}
+			+img[src="life.png"].heart
+	^^div.bar
+	+div.life#life2
+		>div.player
+			>div.lp{20}
+			+img[src="life.png"].heart
+-->
