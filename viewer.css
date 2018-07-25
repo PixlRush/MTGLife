@@ -64,6 +64,14 @@ body{
 	border-radius: 5vw;
 	margin: 5px;
 }
+.mwinIndicatorF{
+	background-color: #FFFFFF;
+	display: inline-block;
+	border: 0.5vw solid #FFFFFF;
+	width: 5vw; height: 5vw;
+	border-radius: 5vw;
+	margin: 5px;
+}
 .status{
 	height: 5%;
 	display: flex;
