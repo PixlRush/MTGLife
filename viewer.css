@@ -1,0 +1,77 @@
+body{
+	margin: 0px;
+	background-color: #405092;
+	align-content: center;
+	/*Font Items to Inherit*/
+	font-family: sans-serif;
+	font-weight: 200;
+	color: #FFFFFF
+}
+.timer{
+	background-color: #304070;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	text-align: center;
+	align-content: center;
+	font-size: 4.5vw;
+	font-weight: 900;
+}
+#timer{
+	align-self: center;
+}
+.players{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.player{
+	display: inline-block;
+	margin: 0px 20px;
+	height: 85%;
+	width: 45%;
+	background-color: #7094C6;
+	text-align: center;
+	align-content: center;
+	overflow-y: hidden;
+}
+#info{
+	background-color: #5572A7;
+	padding: 20px 0px;
+}
+#name{
+	font-weight: 300;
+	font-size: 250%;
+	font-size: 5vw;
+}
+#record{
+	font-size: 200%;
+	color: #DDEEFF
+}
+#lifetotal{
+	font-size: 1000%;
+	font-size: 25vw;
+	font-weight: bold;
+	font: "";
+	color: #FFFFFF;
+}
+.mwinIndicator{
+	background-color: inherit;
+	display: inline-block;
+	border: 0.5vw solid #FFFFFF;
+	width: 5vw; height: 5vw;
+	border-radius: 5vw;
+	margin: 5px;
+}
+.status{
+	height: 5%;
+	display: flex;
+	justify-content: center;
+	background-color: #304070;
+	text-align: center;
+	font-size: 2vw;
+}
+#status{
+	align-self: center;
+}
