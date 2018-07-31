@@ -14,3 +14,9 @@ document.getElementById('info2').style.backgroundColor =
   'hsl(' + p2Color + ', 33%, 49%)'
 document.getElementById('player2').style.backgroundColor =
   'hsl(' + p2Color + ', 43%, 61%)'
+
+// Set flag for Perfect
+var l1 = document.getElementById('life1')
+l1.style['text-shadow'] = '4px 4px gold'
+var l2 = document.getElementById('life2')
+l2.style['text-shadow'] = '4px 4px gold'
