@@ -1,14 +1,14 @@
 body{
 	margin: 0px;
-	background-color: #405092;
+	background-color: hsl(228, 10%, 40%); /*hsl(228, 39%, 41%)*/
 	align-content: center;
 	/*Font Items to Inherit*/
 	font-family: sans-serif;
 	font-weight: 200;
-	color: #FFFFFF
+	color: #FFFFFF; /*hsl(0,0%,100%)*/
 }
 .timer{
-	background-color: #304070;
+	background-color: hsl(225, 10%, 30%); /*hsl(225, 40%, 31%)*/
 	height: 10%;
 	display: flex;
 	justify-content: center;
@@ -31,13 +31,13 @@ body{
 	margin: 0px 20px;
 	height: 85%;
 	width: 45%;
-	background-color: #7094C6;
+	background-color: hsl(215, 43%, 61%); /*hsl(215, 43%, 61%)*/
 	text-align: center;
 	align-content: center;
 	overflow-y: hidden;
 }
-#info{
-	background-color: #5572A7;
+.info{
+	background-color: hsl(219, 33%, 49%); /*hsl(219, 33%, 49%)*/
 	padding: 20px 0px;
 }
 #name{
@@ -47,7 +47,7 @@ body{
 }
 #record{
 	font-size: 2vw;
-	color: #DDEEFF
+	color: #DDEEFF; /*hsl(210, 100%, 93%)*/
 }
 #lifetotal{
 	font-size: 1000%;
@@ -76,7 +76,7 @@ body{
 	height: 5%;
 	display: flex;
 	justify-content: center;
-	background-color: #304070;
+	background-color: hsl(0, 0%, 30%); /*hsl(225, 40%, 31%)*/
 	text-align: center;
 	font-size: 2vw;
 }
