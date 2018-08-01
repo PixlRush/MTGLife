@@ -4,17 +4,15 @@
 <body>
 	<div class="app">
 		<div class="life" id="life1">
-			<div class="player">
-				<div class="lp">20</div>
-				<img src="life.png" alt="" class="heart">
-			</div>
+			<div class="button" id="gain1" onclick="gain(1)">+</div>
+			<div class="lp" id="lp1">20</div>
+			<div class="button" id="lose1" onclick="lose(1)">-</div>
 		</div>
 		<div class="bar"></div>
 		<div class="life" id="life2">
-			<div class="player">
-				<div class="lp">20</div>
-				<img src="life.png" alt="" class="heart">
-			</div>
+			<div class="button" id="gain2" onclick="gain(2)">+</div>
+			<div class="lp" id="lp2">20</div>
+			<div class="button" id="lose2" onclick="lose(2)">-</div>
 		</div>
 	</div>
 	<script src=./app.js></script>

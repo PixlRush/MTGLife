@@ -14,6 +14,17 @@ body{
 	flex-direction: column;
 	align-self: center;
 }
+.button{
+	text-align: center;
+	font-size: 10vw;
+	height: 20%;
+	border: none;
+	border-radius: inherit;
+	align-content: center;
+}
+.button:hover{
+/*	background-color: #FFFFFF;*/
+}
 .life{
 	height: 40%;
 	width: 90%;
@@ -23,11 +34,6 @@ body{
 	margin: 2.5%;
 	border-radius: 25px;
 }
-.player{
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-}
 #life1{
 	background-color: #5ac192;
 }
@@ -35,8 +41,8 @@ body{
 	background-color: #8a3ba7;
 }
 .lp{
-	align-self: center;
 	font-size: 25vh;
+	margin: auto;
 }
 img{
 	width: 5vw;
