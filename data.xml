@@ -1,4 +1,6 @@
 <data>
+	<timer>45:00</timer>
+	<status>Lorem ipsum dolor sit amet</status>
 	<player1>
 		<name>Lorem</name>
 		<record>5-0-1</record>
@@ -19,5 +21,4 @@
 		</matches>
 		<color>225</color>
 	</player2>
-	<lorem></lorem>
 </data>

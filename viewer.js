@@ -7,7 +7,13 @@ function XMLLoad () {
       var xmlDoc = this.responseXML
       var p1 = xmlDoc.getElementsByTagName('player1')[0]
       var p2 = xmlDoc.getElementsByTagName('player2')[0]
-      var m
+
+      //Deal with timer and Status
+      document.getElementById('timer').textContent =
+        xmlDoc.getElementsByTagName('timer')[0].textContent
+      document.getElementById('status').textContent =
+        xmlDoc.getElementsByTagName('status')[0].textContent
+
 
       // Deal with Player 1
       document.getElementById('info1').style.backgroundColor =
