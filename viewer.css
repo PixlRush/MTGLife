@@ -40,12 +40,12 @@ body{
 	background-color: hsl(219, 33%, 49%); /*hsl(219, 33%, 49%)*/
 	padding: 20px 0px;
 }
-#name{
+.name{
 	font-weight: 300;
 	font-size: 250%;
 	font-size: 5vw;
 }
-#record{
+.record{
 	font-size: 2vw;
 	color: #DDEEFF; /*hsl(210, 100%, 93%)*/
 }
@@ -73,7 +73,7 @@ body{
 	margin: 5px;
 }
 .mwinIndicatorF{
-	background-color: gold;
+	background-color: #FFFFFF;
 	display: inline-block;
 	border: 0.5vw solid #FFFFFF;
 	width: 5vw; height: 5vw;
