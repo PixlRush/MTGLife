@@ -1,20 +1,20 @@
 <data>
 	<player1>
-		<name>Matthew</name>
+		<name>Lorem</name>
 		<record>5-0-1</record>
-		<life>24</life>
+		<life>420</life>
 		<matches>
-			<m1>0</m1>
+			<m1>1</m1>
 			<m2>0</m2>
 		</matches>
 		<color>120</color>
 	</player1>
 	<player2>
-		<name>p2</name>
+		<name>Ipsum</name>
 		<record>5-1-0</record>
-		<life>2</life>
+		<life>69</life>
 		<matches>
-			<m1>0</m1>
+			<m1>1</m1>
 			<m2>0</m2>
 		</matches>
 		<color>225</color>
