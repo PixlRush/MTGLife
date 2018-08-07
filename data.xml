@@ -1,0 +1,23 @@
+<data>
+	<player1>
+		<name>Matthew</name>
+		<record>5-0-1</record>
+		<life>24</life>
+		<matches>
+			<m1>0</m1>
+			<m2>0</m2>
+		</matches>
+		<color>120</color>
+	</player1>
+	<player2>
+		<name>p2</name>
+		<record>5-1-0</record>
+		<life>2</life>
+		<matches>
+			<m1>0</m1>
+			<m2>0</m2>
+		</matches>
+		<color>225</color>
+	</player2>
+	<lorem></lorem>
+</data>
