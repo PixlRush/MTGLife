@@ -11,22 +11,23 @@ header{
 	padding: 10px 0;
 }
 
-.player{
+.container{
 	max-width: 800px;
 	width: 80%;
 	margin: auto;
 	background-color: #808080;
 	margin-bottom: 30px;
+	color: #ffffff;
+	font-size: 24px;
 }
 
 .info{
-	font-size: 24px;
-	color: #ffffff;
 	display: flex;
 	align-content: center;
 	flex-direction: row;
 	padding: 10px;
 	padding-bottom: 20px;
+	background-color: #707070;
 }
 
 .name{
@@ -42,4 +43,10 @@ header{
 
 .stats{
 	padding: 10px;
+	font-size: 16px;
+}
+
+.timer{
+	padding: 10px;
+	font-size: 16px;
 }

@@ -23,6 +23,7 @@ function XMLRead (xml) {
     'hsl(' + p1.getElementsByTagName('color')[0].textContent + ', 50%, 50%)'
   document.getElementById('info1').style.backgroundColor =
       'hsl(' + p1.getElementsByTagName('color')[0].textContent + ', 50%, 40%)'
+
   // Deal with Second Player Items
   var p2 = xmlDoc.getElementsByTagName('player2')[0]
   document.getElementById('name2').textContent =
@@ -37,4 +38,10 @@ function XMLRead (xml) {
     'hsl(' + p2.getElementsByTagName('color')[0].textContent + ', 50%, 50%)'
   document.getElementById('info2').style.backgroundColor =
       'hsl(' + p2.getElementsByTagName('color')[0].textContent + ', 50%, 40%)'
+
+  // Deal with Timer
+  document.getElementById('timer').textContent =
+    "Time in Round: " + xmlDoc.getElementsByTagName('timer')[0].textContent
+  document.getElementById('status').textContent =
+    xmlDoc.getElementsByTagName('status')[0].textContent
 }
